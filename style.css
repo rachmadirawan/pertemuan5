@@ -1,0 +1,133 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* awal navbar */
+body{
+	font-family: "Roboto", sans-serif;
+}
+nav{
+	width: 900px;
+	height: 50px;
+	background-color: #0419D0;
+	margin: auto;
+	border-radius: 50px;
+	margin-top: 20px;
+}
+
+nav .logo{
+	width: 400px;
+	margin-left: 75px;
+
+}
+nav .logo h4{
+	color:  #FEF7F7;
+	font-size: 24px;
+	line-height: 50px;
+	float: left;
+}
+
+nav ul{
+	margin-left: 530px;
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	float: left;
+	padding: 15px;
+}
+
+nav li a{
+	color: #FDF8F8;
+	text-decoration: none;
+}
+
+
+/* ahir navbar */
+
+/* awal header */
+
+header{
+	background-image: url("../img/hero.jpg");
+	background-size: cover;
+	border-top-left-radius: 10px ;
+	border-top-right-radius: 10px ;
+	margin: auto;
+	width: 900px;
+	height: 450px;
+}
+
+.content-hero{
+	position: relative;
+	height: 450px;
+	width: 450px;
+	float: left;
+}
+.content-hero img{
+	width: 350px;
+	height: 300px;
+	border-radius: 10px;
+	margin-top:  65px;
+	margin-left: 65px;
+	opacity: 0.9;
+}
+
+.content-text{
+	height: 450px;
+	width: 400px;
+	float: left;
+}
+
+.content-text h4{
+	margin-top: 100px;
+	font-size: 30px;
+	color: #0419D0;
+}
+
+.content-text h1{
+	font-family: "Airstrike", sans-serif;
+}
+
+.content-text h1 .org{
+	color: #EFB359;
+}
+
+.content-text h1 .blu{
+	color: #0419D0;
+}
+
+main{
+	width: 900px;
+	height: 1500px;
+	clear: both;
+	z-index: -9999;
+}
+
+
+.wa{
+	z-index: 9999;
+	position: fixed;
+	float: right;
+}
+.wa {
+	border-radius: 100%;
+	background-color: green;
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	z-index: 99999;
+	margin-left: 955px;
+
+	}
+
+.wa i{
+	margin-left: 12px;
+	margin-top: 10px;
+}	
+
+.wa a{
+	text-decoration: none;
+	color: white;
+}
